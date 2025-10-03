@@ -1,4 +1,4 @@
-[            className="rounded-xl w-full h-auto"
+[[            className="rounded-xl w-full h-auto"
             loading="lazy"
           />
         </div>
@@ -37,4 +37,4 @@
     </div>
   );
 }
-](https://github.com/Nadinemagdy1/Nezoo.git)
+](https://github.com/Nadinemagdy1/Nezoo.git
