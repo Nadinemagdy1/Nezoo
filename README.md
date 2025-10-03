@@ -1,9 +1,3 @@
-**1. Create a new folder** (example: `my-website`).
-Inside it, make 3 files:
-
-**index.html**
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,20 +10,20 @@ Inside it, make 3 files:
   <header>
     <h1>Welcome to Nezoo 🌸</h1>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section id="home">
     <h2>Home</h2>
-    <p>This is your first coded website!</p>
+    <p>This is your first live website!</p>
   </section>
 
   <section id="about">
     <h2>About</h2>
-    <p>Here you can write about Nezoo Bloom or Nezoo Press.</p>
+    <p>Write something about Nezoo Bloom or Nezoo Press here.</p>
   </section>
 
   <section id="contact">
@@ -44,30 +38,21 @@ Inside it, make 3 files:
   <script src="script.js"></script>
 </body>
 </html>
-```
-
-**style.css**
-
-```css
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #fff0f6;
+  background-color: #fff0f6;
   color: #333;
 }
 
 header {
-  background: #d291bc;
-  padding: 15px;
+  background-color: #d291bc;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-header h1 {
-  margin: 0;
-  color: white;
-}
-
-nav a {
+header nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
@@ -76,21 +61,13 @@ nav a {
 
 section {
   padding: 30px;
+  border-bottom: 1px solid #ddd;
 }
 
 footer {
-  background: #d291bc;
+  background-color: #d291bc;
   color: white;
   text-align: center;
   padding: 10px;
 }
-```
-
-**script.js**
-
-```javascript
-// Example JavaScript
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Nezoo Website Loaded!");
-});
-```
+console.log("Nezoo Website Loaded!");
