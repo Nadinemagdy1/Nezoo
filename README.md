@@ -1,8 +1,8 @@
-            className="rounded-xl w-full h-auto"
+[            className="rounded-xl w-full h-auto"
             loading="lazy"
           />
         </div>
-      </section>
+      </section
       {/* Footer */}
       <footer
         className="bg-primary/90 text-primary-foreground py-8 mt-auto rounded-t-3xl"
@@ -37,3 +37,4 @@
     </div>
   );
 }
+](https://github.com/Nadinemagdy1/Nezoo.git)
